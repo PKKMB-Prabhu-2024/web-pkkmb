@@ -135,5 +135,5 @@ module.exports = {
       rose: colors.rose
     },
   },
-  plugins: [],
+  plugins: ["prettier-plugin-tailwindcss"],
 }
