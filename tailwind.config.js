@@ -36,76 +36,25 @@ module.exports = {
       }
     },
     keyframes: {
-      grain: {
-        '0%': {
-          backgroundPosition: '0 0'
+      zoomFade: {
+        "0%": {
+          transform: "scale(1)",
         },
-        '10%': {
-          backgroundPosition: '-15% -20%'
+        "16.66%": {
+          opacity: 1
         },
-        '20%': {
-          backgroundPosition: '-0% -0%'
+        "33.33%": {
+          opacity: 1
         },
-        '30%': {
-          backgroundPosition: '-15% -20%'
+        "48.66%": {
+          opacity: 0
         },
-        '40%': {
-          backgroundPosition: '-0% -0%'
-        },
-        '50%': {
-          backgroundPosition: '-15% -20%'
-        },
-        '60%': {
-          backgroundPosition: '-0% -0%'
-        },
-        '70%': {
-          backgroundPosition: '-15% -20%'
-        },
-        '80%': {
-          backgroundPosition: '-0% -0%'
-        },
-        '90%': {
-          backgroundPosition: '-15% -20%'
-        },
-        '100%': {
-          backgroundPosition: '-0% -0%'
+        "100%": {
+          transform: "scale(1.4)",
+          opacity: 0
         }
+
       },
-      scratch: {
-        '0%': {
-          transform: 'translateX(0%)'
-        },
-        '10%': {
-          transform: 'translateX(-1%)'
-        },
-        '20%': {
-          transform: 'translateX(1%)'
-        },
-        '30%': {
-          transform: 'translateX(-50%)'
-        },
-        '40%': {
-          transform: 'translateX(-52%)'
-        },
-        '50%': {
-          transform: 'translateX(-90%)'
-        },
-        '60%': {
-          transform: 'translateX(-3%)'
-        },
-        '70%': {
-          transform: 'translateX(-80%)'
-        },
-        '80%': {
-          transform: 'translateX(1%)'
-        },
-        '90%': {
-          transform: 'translateX(-75%)'
-        },
-        '100%': {
-          transform: 'translateX(-73%)'
-        }
-      }
     },
     colors: {
       blue: {
@@ -160,4 +109,3 @@ module.exports = {
   },
   plugins: ["prettier-plugin-tailwindcss"],
 }
-
