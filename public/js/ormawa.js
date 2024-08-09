@@ -6,19 +6,19 @@ const titleelemen = document.getElementById("title");
 const deskripsielemen = document.getElementsByClassName("deskripsi");
 
 const logo = [
-  "../assets/img/ormawa-fakultas/smfib.webp",
-  "../assets/img/ormawa-fakultas/bemfk.webp",
-  "../assets/img/ormawa-fakultas/bemfh.webp",
-  "../assets/img/ormawa-fakultas/smft.webp",
-  "../assets/img/ormawa-fakultas/bemfp.webp",
-  "../assets/img/ormawa-fakultas/bemfeb.webp",
-  "../assets/img/ormawa-fakultas/bemfapet.webp",
-  "../assets/img/ormawa-fakultas/bemfmipa.webp",
-  "../assets/img/ormawa-fakultas/bemfkh.webp",
-  "../assets/img/ormawa-fakultas/bemftp.webp",
-  "../assets/img/ormawa-fakultas/bemfpar.webp",
-  "../assets/img/ormawa-fakultas/bemfisip.webp",
-  "../assets/img/ormawa-fakultas/bemfkp.webp"
+  "../img/ormawa-fakultas/smfib.webp",
+  "../img/ormawa-fakultas/bemfk.webp",
+  "../img/ormawa-fakultas/bemfh.webp",
+  "../img/ormawa-fakultas/smft.webp",
+  "../img/ormawa-fakultas/bemfp.webp",
+  "../img/ormawa-fakultas/bemfeb.webp",
+  "../img/ormawa-fakultas/bemfapet.webp",
+  "../img/ormawa-fakultas/bemfmipa.webp",
+  "../img/ormawa-fakultas/bemfkh.webp",
+  "../img/ormawa-fakultas/bemftp.webp",
+  "../img/ormawa-fakultas/bemfpar.webp",
+  "../img/ormawa-fakultas/bemfisip.webp",
+  "../img/ormawa-fakultas/bemfkp.webp"
 ];
 
 const judul = [

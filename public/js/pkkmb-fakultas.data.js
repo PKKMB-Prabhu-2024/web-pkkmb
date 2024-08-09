@@ -305,16 +305,16 @@ export const pkkmbFakultasContacts = [
 ]
 
 export const pkkmbFakultasImages = [
-  "../assets/img/pkkmb-fakultas/fib.webp",
-  "../assets/img/pkkmb-fakultas/fh.webp",
-  "../assets/img/pkkmb-fakultas/ft.webp",
-  "../assets/img/pkkmb-fakultas/fp.webp",
-  "../assets/img/pkkmb-fakultas/feb.webp",
-  "../assets/img/pkkmb-fakultas/fapet.webp",
-  "../assets/img/pkkmb-fakultas/fmipa.webp",
-  "../assets/img/pkkmb-fakultas/fkh.webp",
-  "../assets/img/pkkmb-fakultas/ftp.webp",
-  "../assets/img/pkkmb-fakultas/fpar.webp",
-  "../assets/img/pkkmb-fakultas/fisip.webp",
-  "../assets/img/pkkmb-fakultas/fkp.webp",
+  "./img/pkkmb-fakultas/fib.webp",
+  "./img/pkkmb-fakultas/fh.webp",
+  "./img/pkkmb-fakultas/ft.webp",
+  "./img/pkkmb-fakultas/fp.webp",
+  "./img/pkkmb-fakultas/feb.webp",
+  "./img/pkkmb-fakultas/fapet.webp",
+  "./img/pkkmb-fakultas/fmipa.webp",
+  "./img/pkkmb-fakultas/fkh.webp",
+  "./img/pkkmb-fakultas/ftp.webp",
+  "./img/pkkmb-fakultas/fpar.webp",
+  "./img/pkkmb-fakultas/fisip.webp",
+  "./img/pkkmb-fakultas/fkp.webp",
 ]

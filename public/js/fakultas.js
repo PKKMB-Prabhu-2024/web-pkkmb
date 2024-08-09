@@ -41,19 +41,19 @@ const facultyDescriptions = [
 ]
 
 const facultyImages = [
-  "../assets/img/fakultas/fib.webp",
-  "../assets/img/fakultas/fk.webp",
-  "../assets/img/fakultas/fapet.webp",
-  "../assets/img/fakultas/fh.webp",
-  "../assets/img/fakultas/ft.webp",
-  "../assets/img/fakultas/feb.webp",
-  "../assets/img/fakultas/fp.webp",
-  "../assets/img/fakultas/fmipa.webp",
-  "../assets/img/fakultas/fkh.webp",
-  "../assets/img/fakultas/ftp.webp",
-  "../assets/img/fakultas/fpar.webp",
-  "../assets/img/fakultas/fisip.webp",
-  "../assets/img/fakultas/fkp.webp",
+  "../img/fakultas/fib.webp",
+  "../img/fakultas/fk.webp",
+  "../img/fakultas/fapet.webp",
+  "../img/fakultas/fh.webp",
+  "../img/fakultas/ft.webp",
+  "../img/fakultas/feb.webp",
+  "../img/fakultas/fp.webp",
+  "../img/fakultas/fmipa.webp",
+  "../img/fakultas/fkh.webp",
+  "../img/fakultas/ftp.webp",
+  "../img/fakultas/fpar.webp",
+  "../img/fakultas/fisip.webp",
+  "../img/fakultas/fkp.webp",
 ]
 
 Number.prototype.mod = function (n) {
