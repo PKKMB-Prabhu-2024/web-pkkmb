@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+    .theContainer{
+        @apply flex mobile:w-[220px] tablet:w-[530px];
+    }
+    .contentContainer{
+        @apply flex right-0 duration-700 relative h-fit w-fit mobile:gap-x-[300px] mobile:gap-y-0 laptop:gap-[400px] desktop:gap-[600px];
+    }
+    .cardContainer{
+        @apply flex flex-wrap justify-center items-center mobile:h-[100vh] mobile:w-fit laptop:h-[550px] laptop:w-[800px] desktop:w-[1000px] gap-7;
+    }
+    .card{
+        @apply duration-500 mobile:w-[220px] mobile:h-[270px] mobile:p-4 tablet:w-[530px] laptop:w-[360px] laptop:p-6 laptop:h-[255px] desktop:w-[480px] rounded relative;
+    }
+    .redCard{
+        @apply card bg-merah;
+    }
+    .yellowCard{
+        @apply card bg-kuning justify-end text-right;
+    }
+    .blueCard{
+        @apply card bg-biru;
+    }
+    .greenCard{
+        @apply card bg-hijau justify-end text-right;
+    }
+    .ukmName{
+        @apply mobile:text-13px tablet:text-[17px] laptop:text-lg desktop:text-2xl font-bold mb-2;
+    }
+    .description{
+        @apply mobile:opacity-100 mobile:text-xs tablet:text-[15px] tablet:leading-6 laptop:text-sm laptop:opacity-0 xl:text-[15px] desktop:text-base;
+    }
+    .ukmDescriptionRight{
+        @apply description laptop:pr-36 tablet:pr-32 mobile:pr-0;
+    }
+    .ukmDescriptionLeft{
+        @apply description laptop:pl-36 tablet:pl-32 mobile:pl-0;
+    }
+    .contactContainerRight{
+        @apply mobile:opacity-100 laptop:opacity-0 block w-fit;
+    }
+    .contactContainerLeft{
+        @apply absolute mobile:opacity-100 laptop:opacity-0 w-fit right-6;
+    }
+    .waIcon{
+        @apply rounded-full shadow-md shadow-gray-800 mobile:w-[35px] tablet:w-[40px] laptop:w-[40px];
+    }
+    .waIconLeft{
+        @apply waIcon relative mobile:left-4 tablet:left-4 laptop:left-5 desktop:left-6;
+    }
+    .contact{
+        @apply flex relative mobile:mt-[8px] tablet:mt-[10px] laptop:mt-[20px] mobile:w-[100px] tablet:w-[150px] laptop:w-[200px] xl:w-[200px] desktop:w-[200px] mobile:h-[30px] tablet:h-[35px] laptop:h-[35px] rounded-full items-center shadow-md shadow-gray-800 hover:opacity-80;
+    }
+    .contactRed{
+        @apply contact bg-merahtua;
+    }
+    .contactYellow{
+        @apply contact bg-kuningtua desktop:right-4;
+    }
+    .contactBlue{
+        @apply contact bg-birumuda;
+    }
+    .contactGreen{
+        @apply contact bg-hijaumuda desktop:right-4;
+    }
+    .contactName{
+        @apply mobile:w-[50%] tablet:w-[70%] flex justify-center mobile:text-[10px] mobile:leading-3 tablet:text-[15px] desktop:text-base;
+    }
+    .contactNameRight{
+        @apply contactName relative mobile:left-1;
+    }
+    .contactNameLeft{
+        @apply contactName relative mobile:left-2 tablet:left-4 xl:left-9 desktop:left-5;
+    }
+    .logo{
+        @apply mobile:w-[60px] tablet:w-28 laptop:w-32 h-auto rounded absolute mobile:bottom-4 tablet:top-6 mobile:opacity-100 laptop:opacity-0
+    }
+    .logoRight{
+        @apply logo right-6 mobile:right-4;
+    }
+    .logoLeft{
+        @apply logo left-6 mobile:right-4;
+    }
+    .move{
+        @apply bg-kuning text-black rounded-full tablet:px-5 tablet:py-4 mobile:px-3 mobile:py-3 shadow-md shadow-slate-400 visible hover:bg-yellow-300;
+    }
+}

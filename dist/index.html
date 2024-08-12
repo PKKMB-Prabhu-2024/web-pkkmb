@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PKKMB</title>
+    <link rel="stylesheet" href="output.css">
+    <script src="main.js"></script>
+    <!-- <style>
+        .detail-visible p, .detail-visible a, .detail-visible img {
+            opacity: 1 !important;
+            transition-delay: 0ms !important;
+            transition-duration: 0ms !important;
+        }
+        .detail-visible {
+            width: 100% !important;
+            height: auto !important;
+        }
+    </style> -->
+</head>
+<body class="bg-[url('../images/BG.png')] h-screen w-screen font-PlayfairDisplay text-white flex justify-start laptop:items-center relative mobile:items-baseline mobile:overflow-y-scroll mobile:overflow-x-hidden laptop:overflow-hidden">
+    <div class="inline-block relative h-fit w-fit laptop:p-6 laptop:ml-[8vw] xl:ml-[16vw]">
+        <div class="flex mobile:w-screen laptop:w-fit justify-center">
+            <div class="w-fit relative laptop:right-[2vw] desktop:left-[-4vw] bg-biru py-3 px-5 mobile:px-3 rounded mobile:mt-[7vh] mobile:mb-5 laptop:mt-[3vh] tablet:mb-[4vh] desktop:mb-[6vh] shadow-inner">
+                <h1 class="mobile:text-xs tablet:text-xl desktop:text-4xl font-bold tracking-wider">Unit Kegiatan Mahasiswa (UKM)</h1>
+            </div>
+        </div>
+        <div class="mobile:w-screen laptop:w-fit flex justify-center">
+            <div class="theContainer">
+                <div class="contentContainer" id="contentContainer">
+                    <!-- page 1 -->
+                    <div class="cardContainer">
+                        <div class="redCard" id="ukm1">
+                            <h2 class="ukmName">Marching Band Universitas Udayana</h2>
+                            <p class="ukmDescriptionRight" id="p1">UKM Marching Band Universitas Udayana (MBU) merupakan salah satu UKM yang membidangi minat dan bakat mahasiswa di bidang musik khususnya marching band/drumband
+                            </p>
+                            <a href="https://api.whatsapp.com/send?phone=6282147179023" class="contactContainerRight" id="waUkm1">
+                                <div class="contactRed">
+                                    <img src="../images/Button.png" alt="Whatsapp Logo" class="waIcon">
+                                    <p class="contactNameRight">Adi</p>
+                                </div>
+                            </a>
+                            <img src="../images/ukm_marching.png" class="logoRight" id="img1">
+                            <!-- <div class="bg-black w-32 h-32 rounded absolute bottom-0 right-0"></div> -->
+                        </div>
+                        <div class="yellowCard" id="ukm2">
+                            <h2 class="ukmName">Weimana Udayana</h2>
+                            <p class="ukmDescriptionLeft" id="p2">UKM Weimana Udayana berdiri sejak 2012 yang menjadi wadah bagi para mahasiswa yang memiliki ketertarikan pada perancangan kendaraan listrik</p>
+                            <a href="https://api.whatsapp.com/send?phone=6281359746507" class="contactContainerLeft" id="waUkm2">
+                                <div class="contactYellow">
+                                    <p class="contactNameLeft">Fariz</p>
+                                    <img src="../images/Button.png" alt="Whatsapp Logo" class="waIconLeft">
+                                </div>
+                            </a>
+                            <!-- <div class="bg-black w-20 h-20 rounded absolute bottom-0 left-0"></div> -->
+                            <img src="../images/ukm_weimana.png" class="logoLeft" id="img2">
+                        </div>
+                        <div class="blueCard" id="ukm3">
+                            <!-- <div class="bg-black w-20 h-20 rounded absolute top-0 right-0"></div> -->
+                            <img src="../images/ukm_urc.png" class="logoRight" id="img3">
+                            <h2 class="ukmName">Udayana Research Club</h2>
+                            <p class="ukmDescriptionRight" id="p3">UKM URC merupakan UKM yang berfokus pada pengembangan diri dalam bidang pengetahuan, penelitian dan pengabdian yang multidisipliner untuk mengemansipasi mahasiswa</p>
+                            <a href="https://api.whatsapp.com/send?phone=6285858658391" class="contactContainerRight" id="waUkm3">
+                                <div class="contactBlue">
+                                    <img src="../images/Button.png" alt="Whatsapp Logo" class="waIcon">
+                                    <p class="contactNameRight">Krispa</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="greenCard" id="ukm4">
+                            <!-- <div class="bg-black w-20 h-20 rounded absolute top-0 left-0"></div> -->
+                            <img src="../images/ukm_pps.png" class="logoLeft" id="img4">
+                            <h2 class="ukmName">PPS Betako Merpati Putih Universitas Udayana</h2>
+                            <p class="ukmDescriptionLeft" id="p4">Merpati Putih (MP) merupakan salah satu perguruan pencak silat bela diri Tangan Kosong (PPS Betako) dan merupakan salah satu aset budaya bangsa, yang didirikan pada tanggal 8 Oktober 1987</p>
+                            <a href="https://api.whatsapp.com/send?phone=6281558775562" class="contactContainerLeft" id="waUkm4">
+                                <div class="contactGreen">
+                                    <p class="contactNameLeft">Arya</p>
+                                    <img src="../images/Button.png" alt="Whatsapp Logo" class="waIconLeft">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- page 2 -->
+                    <div class="cardContainer">
+                        <div class="redCard" id="ukm5">
+                            <h2 class="ukmName">Koperasi Mahasiswa Universitas Udayana</h2>
+                            <p class="ukmDescriptionRight" id="p5">UKM Koperasi bergerak layaknya koperasi pada umumnya, namun ruang lingkupnya khusus untuk mahasiswa</p>
+                            <a href="https://api.whatsapp.com/send?phone=6285737598727" class="contactContainerRight" id="waUkm5">
+                                <div class="contactRed">
+                                    <img src="../images/Button.png" alt="Whatsapp Logo" class="waIcon">
+                                    <p class="contactNameRight">Winarsa</p>
+                                </div>
+                            </a>
+                            <!-- <div class="bg-black w-32 h-32 rounded absolute bottom-0 right-0"></div> -->
+                            <img src="../images/ukm_kopma.png" class="logoRight" id="img5">
+                        </div>
+                        <div class="yellowCard" id="ukm6">
+                            <h2 class="ukmName">UKM Wushu Universitas Udayana</h2>
+                            <p class="ukmDescriptionLeft" id="p6">UKM Wushu mengadakan latihan wushu pada hari selasa, kamis, dan sabtu, juga mengadakan latihan barongsai pada hari jumat. UKM kami sangat terbuka bagi pemula yang sama sekali tidak pernah mengikuti wushu sebelumnya</p>
+                            <a href="https://api.whatsapp.com/send?phone=6282186582492" class="contactContainerLeft" id="waUkm6">
+                                <div class="contactYellow">
+                                    <p class="contactNameLeft">Samuel</p>
+                                    <img src="../images/Button.png" alt="Whatsapp Logo" class="waIconLeft">
+                                </div>
+                            </a>
+                            <!-- <div class="bg-black w-20 h-20 rounded absolute bottom-0 left-0"></div> -->
+                            <img src="../images/ukm_wushu.jpg" class="logoLeft" id="img6">
+                        </div>
+                        <div class="blueCard" id="ukm7">
+                            <!-- <div class="bg-black w-20 h-20 rounded absolute top-0 right-0"></div> -->
+                            <img src="../images/ukm_catur.jpg" class="logoRight" id="img7">
+                            <h2 class="ukmName">UKM Catur Universitas Udayana</h2>
+                            <p class="ukmDescriptionRight" id="p7">UKM Catur Unud merupakan suatu unit kegiatan kemahasiswaan yang menjadi wadah pengembangan minat dan bakat mahasiswa Universitas Udayana di dalam bidang olahraga Catur</p>
+                            <a href="https://api.whatsapp.com/send?phone=6288219296576" class="contactContainerRight" id="waUkm7">
+                                <div class="contactBlue">
+                                    <img src="../images/Button.png" alt="Whatsapp Logo" class="waIcon">
+                                    <p class="contactNameRight">Merta</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="greenCard" id="ukm8">
+                            <!-- <div class="bg-black w-20 h-20 rounded absolute top-0 left-0"></div> -->
+                            <img src="../images/ukm_uyec.png" class="logoLeft" id="img8">
+                            <h2 class="ukmName">UKM Kewirausahaan (UYEC)</h2>
+                            <p class="ukmDescriptionLeft" id="p8">UKM Kewirausahaan merupakan UKM yang berfokus pada pelatihan dan pengembangan mental dan keterampilan di bidang kewirausahaan bagi mahasiswa Udayana</p>
+                            <a href="https://api.whatsapp.com/send?phone=6282145661729" class="contactContainerLeft" id="waUkm8">
+                                <div class="contactGreen">
+                                    <p class="contactNameLeft">Putri</p>
+                                    <img src="../images/Button.png" alt="Whatsapp Logo" class="waIconLeft">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- page 3 -->
+                    <div class="cardContainer">
+                        <div class="redCard" id="ukm9">
+                            <h2 class="ukmName">UKM Taekwondo Udayana</h2>
+                            <p class="ukmDescriptionRight" id="p9">UKM yang bergerak di bidang olahraga beladiri yaitu Taekwon- do. Taekwondo merupakan olahraga beladiri yang berasal dari Korea, dimana tekniknya berfokus pada tendangan</p>
+                            <a href="https://api.whatsapp.com/send?phone=6282247130525" class="contactContainerRight" id="waUkm9">
+                                <div class="contactRed">
+                                    <img src="../images/Button.png" alt="Whatsapp Logo" class="waIcon">
+                                    <p class="contactNameRight">Renanta</p>
+                                </div>
+                            </a>
+                            <!-- <div class="bg-black w-32 h-32 rounded absolute bottom-0 right-0"></div> -->
+                            <img src="../images/ukm_taekwondo.png" class="logoRight" id="img9">
+                        </div>
+                        <div class="yellowCard" id="ukm10">
+                            <h2 class="ukmName">UKM Pramuka Racana Udayana</h2>
+                            <p class="ukmDescriptionLeft" id="p10">Pramuka Racana Udayana Mahendradatta adalah organisasi kepramukaan tingkat pandega di Universitas Udayana, memiliki dua kegiatan utama yaitu Gelar Apresiasi Pramuka Nusantara (GELAPATA) dan Gempita Aksi Anak Pramuka (TAKSAKA)</p>
+                            <a href="https://api.whatsapp.com/send?phone=6285738925767" class="contactContainerLeft" id="waUkm10">
+                                <div class="contactYellow">
+                                    <p class="contactNameLeft">Wahyu Rum</p>
+                                    <img src="../images/Button.png" alt="Whatsapp Logo" class="waIconLeft">
+                                </div>
+                            </a>
+                            <!-- <div class="bg-black w-20 h-20 rounded absolute bottom-0 left-0"></div> -->
+                            <img src="../images/ukm_pramuka.png" class="bg-white logoLeft p-2" id="img10">
+                        </div>
+                        <div class="blueCard" id="ukm11">
+                            <!-- <div class="bg-black w-20 h-20 rounded absolute top-0 right-0"></div> -->
+                            <img src="../images/ukm_perisai.jpg" class="logoRight" id="img11">
+                            <h2 class="ukmName">Perisai Diri</h2>
+                            <p class="ukmDescriptionRight" id="p11">UKM Perisai Diri dibentuk dan menjadi bagian dalam kegiatan Mahasiswa Universitas Udayana dimulai pada tanggal 30 April 1974, dengan moto "Pandai Silat Tanpa Cidera"</p>
+                            <a href="https://api.whatsapp.com/send?phone=6285964277667" class="contactContainerRight" id="waUkm11">
+                                <div class="contactBlue">
+                                    <img src="../images/Button.png" alt="Whatsapp Logo" class="waIcon">
+                                    <p class="contactNameRight">Desak Tarisa</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="greenCard" id="ukm12">
+                            <!-- <div class="bg-black w-20 h-20 rounded absolute top-0 left-0"></div> -->
+                            <img src="../images/ukm_bultang.png" class="logoLeft" id="img12">
+                            <h2 class="ukmName">UKM Bulutangkis Universitas Udayana</h2>
+                            <p class="ukmDescriptionLeft" id="p12">Unit Kegiatan Mahasiswa Bulutangkis Universitas Udayana adalah UKM yang bergerak di bidang olahraga sebagai wahana untuk menjadikan manusia yang sehat jasmani dan rohani</p>
+                            <a href="https://api.whatsapp.com/send?phone=6282247402684" class="contactContainerLeft" id="waUkm12">
+                                <div class="contactGreen">
+                                    <p class="contactNameLeft">Andiena</p>
+                                    <img src="../images/Button.png" alt="Whatsapp Logo" class="waIconLeft">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- page 4 -->
+                    <div class="cardContainer">
+                        <div class="redCard" id="ukm13">
+                            <h2 class="ukmName">Mapala "Wanaprastha Dharma" Unud</h2>
+                            <p class="ukmDescriptionRight" id="p13">Mahasiswa Pecinta Alam "Wanaprastha Dharma" Universitas Udayana merupakan organisasi pecinta alam pertama dan tertua di Provinsi Bali, yang bergerak di kegiatan alam bebas dan pelestarian lingkungan hidup</p>
+                            <a href="https://api.whatsapp.com/send?phone=6289630571365" class="contactContainerRight" id="waUkm13">
+                                <div class="contactRed">
+                                    <img src="../images/Button.png" alt="Whatsapp Logo" class="waIcon">
+                                    <p class="contactNameRight">Irfan</p>
+                                </div>
+                            </a>
+                            <!-- <div class="bg-black w-32 h-32 rounded absolute bottom-0 right-0"></div> -->
+                            <img src="../images/ukm_mapala.jpg" class="logoRight" id="img13">
+                        </div>
+                        <div class="yellowCard" id="ukm14">
+                            <h2 class="ukmName">UKM KSR-PMI Universitas Udayana</h2>
+                            <p class="ukmDescriptionLeft" id="p14">UKM KSR-PMI Udayana merupakan organisasi mahasiswa yang berjalan di bidang kepalangmerahan yang berada di bawah naungan PMI Kabupaten Badung</p>
+                            <a href="https://api.whatsapp.com/send?phone=6283119989927" class="contactContainerLeft" id="waUkm14">
+                                <div class="contactYellow">
+                                    <p class="contactNameLeft">Pramita</p>
+                                    <img src="../images/Button.png" alt="Whatsapp Logo" class="waIconLeft">
+                                </div>
+                            </a>
+                            <!-- <div class="bg-black w-20 h-20 rounded absolute bottom-0 left-0"></div> -->
+                            <img src="../images/ukm_pmi.png" class="logoLeft" id="img14">
+                        </div>
+                        <div class="blueCard" id="ukm15">
+                            <!-- <div class="bg-black w-20 h-20 rounded absolute top-0 right-0"></div> -->
+                            <img src="../images/ukm_focus.png" class="logoRight" id="img15">
+                            <h2 class="ukmName">UKM Udayana Focus</h2>
+                            <p class="ukmDescriptionRight" id="p15">UKM Udayana Focus adalah organisasi mahasiswa di bidang media kreatif dengan 4 divisi: fotografi, videografi, produksi, dan animasi</p>
+                            <a href="https://api.whatsapp.com/send?phone=6285852817405" class="contactContainerRight" id="waUkm15">
+                                <div class="contactBlue">
+                                    <img src="../images/Button.png" alt="Whatsapp Logo" class="waIcon">
+                                    <p class="contactNameRight">Max</p>
+                                </div>
+                            </a> 
+                        </div>
+                        <div class="greenCard" id="ukm16">
+                            <!-- <div class="bg-black w-20 h-20 rounded absolute top-0 left-0"></div> -->
+                            <img src="../images/ukm_menwa.png" class="logoLeft" id="img16">
+                            <h2 class="ukmName">Resimen Mahasiswa (MENWA)</h2>
+                            <p class="ukmDescriptionLeft" id="p16">Menwa adalah sebuah organisasi mahasiswa di Indonesia yang memiliki fokus pada pembinaan kedisiplinan, kemandirian, kepemimpinan, dan ketangguhan fisik melalui kegiatan latihan dan pelatihan militer</p>
+                            <a href="https://api.whatsapp.com/send?phone=6282247402684" class="contactContainerLeft" id="waUkm16">
+                                <div class="contactGreen">
+                                    <p class="contactNameLeft">Nela</p>
+                                    <img src="../images/Button.png" alt="Whatsapp Logo" class="waIconLeft">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- page 5 -->
+                    <div class="cardContainer">
+                        <div class="redCard" id="ukm17">
+                            <h2 class="ukmName">Udayana Debating Society</h2>
+                            <p class="ukmDescriptionRight" id="p17">Udayana Debating Society merupakan rumah bagi mahasiswa Udayana yang ingin mengasah kemampuan berpikir kritis dan public speaking</p>
+                            <a href="https://api.whatsapp.com/send?phone=6282147179447" class="contactContainerRight" id="waUkm17">
+                                <div class="contactRed">
+                                    <img src="../images/Button.png" alt="Whatsapp Logo" class="waIcon">
+                                    <p class="contactNameRight">Christian</p>
+                                </div>
+                            </a>
+                            <!-- <div class="bg-black w-32 h-32 rounded absolute bottom-0 right-0"></div> -->
+                            <img src="../images/ukm_debat.jpg" class="logoRight" id="img17">
+                        </div>
+                        <div class="yellowCard" id="ukm18">
+                            <h2 class="ukmName">UKM Sepakbola dan Futsal</h2>
+                            <p class="ukmDescriptionLeft" id="p18">UKM Sepakbola dan Futsal merupakan wadah bagi mahasiswa/i UNUD untuk mengembangkan minat dan bakat dalam olahraga sepakbola maupun futsal dengan mengembangkan relasi dalam semangat keakraban</p>
+                            <a href="https://api.whatsapp.com/send?phone=6281270518894" class="contactContainerLeft" id="waUkm18">
+                                <div class="contactYellow">
+                                    <p class="contactNameLeft">Haikal</p>
+                                    <img src="../images/Button.png" alt="Whatsapp Logo" class="waIconLeft">
+                                </div>
+                            </a>
+                            <!-- <div class="bg-black w-20 h-20 rounded absolute bottom-0 left-0"></div> -->
+                            <img src="../images/ukm_futsal.png" class="logoLeft" id="img18">
+                        </div>
+                        <div class="blueCard" id="ukm19">
+                            <!-- <div class="bg-black w-20 h-20 rounded absolute top-0 right-0"></div> -->
+                            <img src="../images/ukm_jebag.png" class="logoRight" id="img19">
+                            <h2 class="ukmName">Jegeg Bagus Udayana</h2>
+                            <p class="ukmDescriptionRight" id="p19">Anggota yang tergabung dalam UKM JBU terdiri dari Jegeg dan Bagus masing-masing fakultas yang ada di Univ Udayana. Tujuannya yaitu membawa nama baik Univ Udayana dalam ajang Jegeg dan Bagus</p>
+                            <a href="https://api.whatsapp.com/send?phone=6283114962863" class="contactContainerRight" id="waUkm19">
+                                <div class="contactBlue">
+                                    <img src="../images/Button.png" alt="Whatsapp Logo" class="waIcon">
+                                    <p class="contactNameRight">Cintia</p>
+                                </div>
+                            </a> 
+                        </div>
+                        <div class="greenCard" id="ukm20">
+                            <!-- <div class="bg-black w-20 h-20 rounded absolute top-0 left-0"></div> -->
+                            <img src="../images/ukm_gateball.png" class="logoLeft" id="img20">
+                            <h2 class="ukmName">UKM Gateball</h2>
+                            <p class="ukmDescriptionLeft" id="p20">Unit Kegiatan Mahasiswa Gateball merupakan salah satu UKM di Universitas Udayana yang bernaung di bidang olahraga gateball</p>
+                            <a href="https://api.whatsapp.com/send?phone=6281338142057" class="contactContainerLeft" id="waUkm20">
+                                <div class="contactGreen">
+                                    <p class="contactNameLeft">Gek Esa</p>
+                                    <img src="../images/Button.png" alt="Whatsapp Logo" class="waIconLeft">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- page 6 -->
+                    <div class="cardContainer">
+                        <div class="redCard" id="ukm21">
+                            <h2 class="ukmName">UKM Robotec</h2>
+                            <p class="ukmDescriptionRight" id="p21">UKM Robotec, Membidangi tentang robotika dan teknologi. Kami mengikuti ajang lomba PUSPRESNAS yaitu KRI(KONTES ROBOT INDONESIA)</p>
+                            <a href="https://api.whatsapp.com/send?phone=6281236376615" class="contactContainerRight" id="waUkm21">
+                                <div class="contactRed">
+                                    <img src="../images/Button.png" alt="Whatsapp Logo" class="waIcon">
+                                    <p class="contactNameRight">Ian</p>
+                                </div>
+                            </a>
+                            <!-- <div class="bg-black w-32 h-32 rounded absolute bottom-0 right-0"></div> -->
+                            <img src="../images/ukm_robotec.jpeg" class="logoRight" id="img21">
+                        </div>
+                        <div class="yellowCard" id="ukm22">
+                            <h2 class="ukmName">Persaudaraan Setia Hati Terate</h2>
+                            <p class="ukmDescriptionLeft" id="p22">Persaudaraan Setia Hati Terate merupakan salah satu organisasi pencak silat perintis kemerdekaan untuk membentuk manusia yang berbudi pekerti luhur, tahu benar dan salah, serta bertakwa kepada Tuhan yang Maha Esa</p>
+                            <a href="https://api.whatsapp.com/send?phone=6289684731311" class="contactContainerLeft" id="waUkm22">
+                                <div class="contactYellow">
+                                    <p class="contactNameLeft">Aradea Murti</p>
+                                    <img src="../images/Button.png" alt="Whatsapp Logo" class="waIconLeft">
+                                </div>
+                            </a>
+                            <!-- <div class="bg-black w-20 h-20 rounded absolute bottom-0 left-0"></div> -->
+                            <img src="../images/ukm_psht.png" class="logoLeft" id="img22">
+                        </div>
+                        <div class="blueCard" id="ukm23">
+                            <!-- <div class="bg-black w-20 h-20 rounded absolute top-0 right-0"></div> -->
+                            <img src="../images/ukm_pers.jpg" class="logoRight" id="img23">
+                            <h2 class="ukmName">Pers Mahasiswa Akademika</h2>
+                            <p class="ukmDescriptionRight" id="p23">Pers Mahasiswa Akademika merupakan salah satu Unit Kegiatan Mahasiswa yang berfokus pada kegiatan jurnalistik, liputan internal di universitas maupun kegiatan eksternal</p>
+                            <a href="https://api.whatsapp.com/send?phone=6281237213897" class="contactContainerRight" id="waUkm23">
+                                <div class="contactBlue">
+                                    <img src="../images/Button.png" alt="Whatsapp Logo" class="waIcon">
+                                    <p class="contactNameRight">Dayu</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="greenCard" id="ukm24">
+                            <!-- <div class="bg-black w-20 h-20 rounded absolute top-0 left-0"></div> -->
+                            <img src="../images/ukm_kki.jpg" class="logoLeft" id="img24">
+                            <h2 class="ukmName">UKM KKI Udayana</h2>
+                            <p class="ukmDescriptionLeft" id="p24">Melalui UKM KKI Universitas Udayana, mahasiswa yang memiliki minat serta bakat di UKM ini akan ditempa, hingga menghasil- kan karateka yang berprestasi serta mengharumkan nama universitas, provinsi, maupun Negara Indonesia</p>
+                            <a href="https://api.whatsapp.com/send?phone=6287861864118" class="contactContainerLeft" id="waUkm24">
+                                <div class="contactGreen">
+                                    <p class="contactNameLeft">Sandy</p>
+                                    <img src="../images/Button.png" alt="Whatsapp Logo" class="waIconLeft">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- page 7 -->
+                    <div class="cardContainer items-start mobile:h-[70vh] laptop:h-[550px]">
+                        <div class="redCard" id="ukm25">
+                            <h2 class="ukmName">UKM Renang Universitas Udayana</h2>
+                            <p class="ukmDescriptionRight" id="p25">UKM Renang adalah unit kegiatan mahasiswa yang berfokus pada olahraga renang untuk mengembangkan kemampuan renang mereka melalui latihan rutin dan partisipasi dalam kompetisi renang antar-kampus</p>
+                            <a href="https://api.whatsapp.com/send?phone=62853394188887" class="contactContainerRight" id="waUkm25">
+                                <div class="contactRed">
+                                    <img src="../images/Button.png" alt="Whatsapp Logo" class="waIcon">
+                                    <p class="contactNameRight">Satria Andrew</p>
+                                </div>
+                            </a>
+                            <!-- <div class="bg-black w-32 h-32 rounded absolute bottom-0 right-0"></div> -->
+                            <img src="../images/ukm_renang.png" class="logoRight" id="img25">
+                        </div>
+                        <div class="yellowCard" id="ukm26">
+                            <h2 class="ukmName">UKM Kempo</h2>
+                            <p class="ukmDescriptionLeft" id="p26">UKM Kempo merupakan wadah bagi para mahasiswa Universitas Udayana untuk mengembangkan minat dan bakat mereka dalam bidang bela diri Shorinji Kempo</p>
+                            <a href="https://api.whatsapp.com/send?phone=6285847837749" class="contactContainerLeft" id="waUkm26">
+                                <div class="contactYellow">
+                                    <p class="contactNameLeft">Cok Maha</p>
+                                    <img src="../images/Button.png" alt="Whatsapp Logo" class="waIconLeft">
+                                </div>
+                            </a>
+                            <!-- <div class="bg-black w-20 h-20 rounded absolute bottom-0 left-0"></div> -->
+                            <img src="../images/ukm_kempo.jpg" class="logoLeft" id="img26">
+                        </div>
+                        <div class="blueCard" id="ukm27">
+                            <!-- <div class="bg-black w-20 h-20 rounded absolute top-0 right-0"></div> -->
+                            <img src="../images/ukm_teater.png" class="logoRight" id="img27">
+                            <h2 class="ukmName">UKM Teater Orok Noceng</h2>
+                            <p class="ukmDescriptionRight" id="p27">UKM Teater Orok Noceng merupakan sebuah unit kegiatan mahasiswa yang berkecimpung di berbagai jenis pementasan seni teater khususnya pada pementasan drama realis</p>
+                            <a href="https://api.whatsapp.com/send?phone=6285936738224" class="contactContainerRight" id="waUkm27">
+                                <div class="contactBlue">
+                                    <img src="../images/Button.png" alt="Whatsapp Logo" class="waIcon">
+                                    <p class="contactNameRight">Wahyu</p>
+                                </div>
+                            </a> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="laptop:w-fit mobile:w-screen flex justify-center mobile:absolute laptop:relative mobile:top-[5.3vh] laptop:top-0 laptop:left-[60vw] mt-[2vh] mobile:space-x-[235px] tablet:space-x-[450px] laptop:space-x-4">
+            <button class="move" id="prev">
+                <img src="../images/arrow.png" alt="prev" class="rotate-180 mobile:w-2 tablet:w-auto">
+            </button>
+            <button class="move" id="next">
+                <img src="../images/arrow.png" alt="next" class="mobile:w-2 tablet:w-auto">
+            </button>
+        </div>
+    </div>
+</body>
+</html>
